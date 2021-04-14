@@ -1,0 +1,39 @@
+.bg {
+    background-color: #f5f0dd;
+    padding: 100px 0;
+}
+
+.subscribe {
+    &__info {
+        text-align: center;
+        h3 {
+            @include title(42px);
+            color: white;
+            padding-bottom: 20px;
+    }
+
+        p {
+            font-family: $second-font;
+            color: white;
+            margin-bottom: 40px;
+        }
+    }
+
+    .subscribe-form {
+        text-align: center;
+
+        &__input {
+            width: 410px;
+            height: 60px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 11px
+        }
+
+        .btn-subscribe {
+            @extend %btn;
+            padding: 18px 43px;
+        }
+    }
+
+}

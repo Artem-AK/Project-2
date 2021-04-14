@@ -1,0 +1,4 @@
+@mixin title($property) {
+    font-size: $property;
+    font-family: $font-for-title;
+}

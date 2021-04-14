@@ -1,0 +1,28 @@
+%border1 {
+    border-top: 2px solid;
+    border-color: #dd3838;
+    width: 135px;
+}
+
+%btn {
+    padding: 9px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #ff2d2d; 
+    color: white; 
+    border: 2px solid #f44336;
+    border-radius: 4px;
+    font-family: 'Open Sans - Semibold', sans-serif;
+    font-weight: 600;
+    &:hover {
+        background-color: white;
+        color: red;
+        border: 2px solid #f44336;
+    }
+}
+

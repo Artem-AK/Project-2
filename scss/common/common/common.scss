@@ -1,0 +1,11 @@
+body {
+    font-family: initial;
+    font-size: 16px;
+}
+
+.container {
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: $container-y-offset $container-x-offset;
+    box-sizing: border-box;
+}

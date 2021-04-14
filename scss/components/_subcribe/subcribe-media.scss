@@ -1,0 +1,42 @@
+@media (max-width: $breakpoint-sm) {
+    .subscribe {
+        &__info {
+            h3 {
+                font-size: 32px ;
+            }
+
+            p {
+                margin-bottom: 10px;
+            }
+        }
+
+        .subscribe-form {
+            &__input {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: $breakpoint-extra-sm) {
+    .subscribe {
+        &__info {
+            h3 {
+                font-size: 22px ;
+            }
+
+            p {
+                margin-bottom: 10px;
+            }
+        }
+
+        .subscribe-form {
+            &__input {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+}

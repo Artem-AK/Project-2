@@ -1,0 +1,93 @@
+@media (max-width: $breakpoint-md ) {
+    .services-wrapper {
+        .services {
+            display: block;
+            .info {
+                width: 100%;
+                text-align: center;
+                h2 {
+                    text-align: center;
+                    width: 100%;
+                }
+
+                p {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            
+            .discription-services {
+                margin-top: 10px;
+                width: 100%;
+                margin: 0 auto;
+                .item {
+                    &:nth-child(even) {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }   
+}
+
+@media (max-width: $breakpoint-sm) {
+    .services-wrapper {
+        margin-bottom: 62px;
+        .services {
+            .info {
+                h2 {
+                   font-size: 32px;
+                   margin-bottom: 15px;
+                }
+
+                p {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            
+            .discription-services {
+                margin-top: 10px;
+                width: 100%;
+                margin-left: 0;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+@media (max-width: $breakpoint-extra-sm) {
+    .services-wrapper {
+        margin-top: 42px;
+        margin-bottom: 42px;
+        .services {
+            .info {
+                h2 {
+                   font-size: 22px;
+                   margin-bottom: 10px;
+                   line-height: 22px;
+                }
+
+                p {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            
+            .discription-services {
+                display: block;
+                .item {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 25px;
+                    &:first-child {
+                        padding: 0;
+                    }
+                    &:nth-child(even) {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

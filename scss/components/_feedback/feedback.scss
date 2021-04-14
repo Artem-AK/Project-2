@@ -1,0 +1,94 @@
+.fb {
+    margin-top: 100px;
+}
+
+.feedback {
+    &__info {
+        margin-bottom: 55px;
+        h3 {
+            @include title(42px);
+            color: #333333;
+            padding-bottom: 30px;
+
+        }
+        p {
+            font-family: 'IBM Plex Sans Condensed', sans-serif;
+            margin-bottom: 45px;
+            color: #585858;
+            max-width: 645px;
+            line-height: 25px
+        }
+    }
+
+    .border1 {
+        @extend %border1;
+    }
+
+    .feedback-wrapper {
+        display: flex;
+
+        .feedback-form {
+            width: 50%;
+            .feedback-form-input {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                &__input {
+                    border: none;
+                    border-radius: 6px;
+                    background-color: #e5e5e5;
+                    padding: 20px 31px;
+                    margin-bottom: 40px;
+                    margin-right: 45px;
+                    &:last-child {
+                        margin-right:  0;
+                    }
+                }
+
+              
+            } 
+             &__message {
+                    border: none;
+                    border-radius: 6px;
+                    background-color: #e5e5e5;
+                    resize: none;
+                    margin-bottom: 40px;
+                    width: 590px;
+                }
+
+                &__button {
+                    @extend %btn;
+                    width: 595px;
+                    height: 56px;
+                } 
+            
+
+        }
+
+
+    }
+
+    &__contact {
+         background-color: #2d2d2d;
+         width: 50%;
+         margin-left: 70px;
+
+         h3 {
+            font-family: $font-for-title;
+            font-size: $fz-feedback_sm;
+            margin: 110px 0 20px 60px;
+            color: #bcbcbc;
+         } 
+
+         p {
+            font-family: $second-font;
+            margin-bottom: 15px;
+            margin: 15px 0 0 60px;
+            color: #bcbcbc;
+            line-height: 20px;
+         }
+
+         
+    }
+}

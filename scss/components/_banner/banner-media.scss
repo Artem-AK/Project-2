@@ -1,0 +1,99 @@
+@media (max-width: $breakpoint-lg) {
+    .banner-wrapper {
+        .video {
+            margin-left: 75px;
+            iframe {
+                width: 400px;
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width: $breakpoint-md) {
+    .banner {
+        padding: 40px 0;
+        .banner-wrapper {
+            display: block;
+            margin: 0 auto;
+
+            .left-info {
+                width: 100%;
+                text-align: center;
+                h1{
+                    font-size: 60px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                
+                p {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+            }
+
+            .video {
+                margin: 20px 0 0 140px;
+                iframe {
+                width: 450px;
+                height: 280px;
+                box-shadow: 1px -15px 20px -5px;
+                }
+            }
+
+        
+        }
+    }
+}
+
+@media (max-width: $breakpoint-sm) {
+    .banner {
+        .banner-wrapper {
+            .left-info {
+                h1{
+                    font-size: 40px;
+                    line-height: 45px;
+
+                }
+                
+                P{
+                    width: 100%;
+                    font-size: 15px;
+                }
+            }
+
+            .video {
+                margin: 20px 0 0 35px;
+                iframe {
+                width: 400px;
+                }
+            }
+
+        
+        }
+    }
+}
+
+@media (max-width: $breakpoint-extra-sm) {
+    .banner {
+        .banner-wrapper {
+            .left-info {
+                h1 {
+                    font-size: 28px;
+                    line-height: 28px;
+                }
+
+                .btn {
+                    margin-bottom: 20px;
+                }
+            }
+            .video {
+                margin: 0 auto;
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

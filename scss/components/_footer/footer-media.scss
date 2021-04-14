@@ -1,0 +1,15 @@
+@media (max-width: $breakpoint-extra-sm) {
+    .footer-info {
+        display: block;
+
+        &__copyright {
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        &__soc-net {
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

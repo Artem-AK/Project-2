@@ -1,0 +1,76 @@
+.team {
+    margin-bottom: 70px;
+}
+
+.team-wrapper {
+    margin-bottom: 50px;
+    h3 {
+        @include title(42px);
+        margin-bottom: 25px;
+    }
+    p{
+        font-family: $second-font;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        color: #585858;
+        line-height: 25px;
+    }
+
+    .border1 {
+        @extend %border1;
+        margin-left: 10px;
+    }
+}
+
+.bio {
+    display: flex;
+    
+    .photo {
+        margin-left: 10px;
+        width: 25%;
+    }
+
+    .about-team {
+        margin-left: 60px;
+        width: 75%;
+
+        h3 {
+            @include title(42px);
+            color: #585858;
+            margin: 20px 0 25px 0;
+            max-width: 600px;
+        }
+
+        p {
+            font-family: $second-font;
+            margin-bottom: 55px;
+            color: #585858;
+            line-height: 25px;
+            max-width: 600px;
+        }
+
+        .social_network {
+            display: flex;
+            margin-bottom: 45px;
+
+            li {
+                margin-right: 30px;
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                a {
+                    font-family: 'Open Sans', sans-serif;
+                    text-decoration: none;
+                    color: #585858;
+                    font-style: italic;
+                }
+            }
+        }
+
+        .selected_photo {
+           display: flex;
+           justify-content: space-between;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@media (max-width: $breakpoint-lg)  {
+    .container {
+        max-width: $breakpoint-md;
+    }
+}
+
+@media (max-width: $breakpoint-md) {
+    .container {
+        max-width: $breakpoint-sm;
+    }
+}
+
+@media (max-width: $breakpoint-sm) {
+    .container {
+        max-width: $breakpoint-extra-sm;
+    }
+}
+
+@media (max-width:$breakpoint-extra-sm) {
+    .container {
+        max-width: 300px;
+    }
+}
+

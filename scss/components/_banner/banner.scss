@@ -1,0 +1,36 @@
+.banner {
+    padding: 80px 0;
+}
+
+.banner-wrapper {
+    display: flex;
+    margin: 0 auto;
+
+    .left-info {
+        width: 50%;
+        h1 {
+            @include title(60px);
+            margin: 0 0 15px 0;
+            font-size: 60px;
+            line-height: 68px;
+        }
+
+        p {
+            width: 400px;
+            font-family: $second-font;
+            color: #585858;
+            line-height: 25px;
+            margin-bottom: 40px;
+        }
+    }
+    
+    .video {
+        width: 50%;
+        margin-left: 142px;
+        iframe {
+            width: 555px;
+            height: 360px;
+            box-shadow: 1px -15px 20px -5px;
+        }   
+        }
+}
